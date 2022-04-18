@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <section class="carrossel" data-flickity>
-      <img src="/imgs/image1.jpg" alt="" class="gallery-cell" />
-      <img src="/imgs/image2.jpg" alt="" class="gallery-cell" />
-      <img src="/imgs/image3.jpg" alt="" class="gallery-cell" />
-      <img src="/imgs/image4.jpg" alt="" class="gallery-cell" />
+    <section
+      class="carrossel js-flickity"
+      data-flickity-options='{ "prevNextButtons": false }'
+    >
+      <img src="/imgs/image1.jpg" alt="" />
+      <img src="/imgs/image2.jpg" alt="" />
+      <img src="/imgs/image3.jpg" alt="" />
+      <img src="/imgs/image4.jpg" alt="" />
     </section>
 
     <script src="script.js"></script>

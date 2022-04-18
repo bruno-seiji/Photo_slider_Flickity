@@ -4,3 +4,8 @@ img {
   margin: 0 3rem;
   }
 
+  .flickity-page-dots .dot
+  {
+    background-color: aquamarine;
+    
+  }
